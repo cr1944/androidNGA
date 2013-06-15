@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar" >
+        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPicker</item>
+    </style>
+    <style name="AppDarkTheme" parent="android:Theme.Holo" >
+        <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
+    </style>
+    <style name="ActionBarStyle" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_custom_blue_inverse_holo</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_blue_inverse_holo</item>
+        <item name="android:backgroundStacked">@drawable/ab_solid_custom_blue_inverse_holo</item>
+    </style>
+    <style name="ActionBarStyle.Black" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_dark_holo</item>
+        <item name="android:backgroundStacked">@drawable/ab_transparent_dark_holo</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_transparent_dark_holo</item>
+    </style>
+</resources>

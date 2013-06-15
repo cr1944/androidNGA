@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" >
+        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPicker</item>
+    </style>
+    <style name="AppDarkTheme" parent="android:Theme" >
+        <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
+    </style>
+    <style name="ActionBarStyle" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_custom_blue_inverse_holo</item>
+        <item name="android:background">@drawable/ab_solid_custom_blue_inverse_holo</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_blue_inverse_holo</item>
+        <item name="backgroundStacked">@drawable/ab_solid_custom_blue_inverse_holo</item>
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+        <item name="subtitleTextStyle">@style/ActionBarSubtitleText</item>
+    </style>
+    <style name="ActionBarStyle.Black" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_transparent_dark_holo</item>
+        <item name="android:background">@drawable/ab_transparent_dark_holo</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_transparent_dark_holo</item>
+        <item name="backgroundStacked">@drawable/ab_transparent_dark_holo</item>
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+        <item name="subtitleTextStyle">@style/ActionBarSubtitleText</item>
+    </style>
+    <style name="ActionBarTitleText" parent="TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ActionBarSubtitleText" parent="TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ActionBarDropDownStyle" parent="Sherlock.__Widget.Holo.Spinner">
+        <item name="android:background">@drawable/ab_dropdown_navigation_item_background</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+    </style>
+    <style name="ActionBarTabView" parent="Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@drawable/action_bar_tab</item>
+    </style>
+</resources>

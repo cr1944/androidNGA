@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <cheng.app.nga.widget.CheckableFrameLayout
+        android:id="@android:id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:duplicateParentState="true"
+        android:focusable="false"
+        android:paddingLeft="8dip" >
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/menu_list_item_height"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </cheng.app.nga.widget.CheckableFrameLayout>
+
+</LinearLayout>

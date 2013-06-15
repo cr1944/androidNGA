@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.Black" parent="Theme.Sherlock">
+        <item name="menu_bg">@drawable/tab_bg</item>
+        <item name="actionbar_bg">@drawable/tab_bg</item>
+        <item name="text_color">@color/holo_blue_light</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Black</item>
+        <item name="android:actionDropDownStyle">@style/ActionBarDropDownStyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabView</item>
+        <item name="android:actionBarItemBackground">@drawable/action_bar_item_background</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_inverse_holo</item>
+    </style>
+
+    <style name="Theme.Styled" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="menu_bg">@color/nga_bg4</item>
+        <item name="actionbar_bg">@drawable/tab_bg</item>
+        <item name="text_color">@color/list_text_color</item>
+        <item name="android:windowBackground">@color/default_bg</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:actionDropDownStyle">@style/ActionBarDropDownStyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabView</item>
+        <item name="android:actionBarItemBackground">@drawable/action_bar_item_background</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_inverse_holo</item>
+    </style>
+</resources>

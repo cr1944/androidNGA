@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dip"
+    android:stretchColumns="1" >
+
+    <TextView
+        android:padding="3dip"
+        android:text="@string/new_message_tips"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TableRow>
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="@string/message_to"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/message_to"
+            android:inputType="text"
+            android:maxLength="1000"
+            android:scrollHorizontally="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="@string/message_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/message_title"
+            android:inputType="text"
+            android:maxLength="1000"
+            android:scrollHorizontally="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="@string/message_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/message_content"
+            android:inputType="text"
+            android:maxLength="1000"
+            android:scrollHorizontally="true" />
+    </TableRow>
+
+</TableLayout>

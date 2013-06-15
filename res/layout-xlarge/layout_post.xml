@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/post_title"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/topic_title"
+                    android:maxLength="100"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/post_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic_icon"
+                    android:textAppearance="@android:style/TextAppearance.Small" />
+                <Button
+                    android:id="@+id/post_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic_type"
+                    android:textAppearance="@android:style/TextAppearance.Small" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/post_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:hint="@string/topic_content"
+                android:maxLength="20000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/post_content_hide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic_hide"
+                    android:textAppearance="@android:style/TextAppearance.Small" />
+
+                <CheckBox
+                    android:id="@+id/post_content_limit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic_limit"
+                    android:visibility="gone"
+                    android:textAppearance="@android:style/TextAppearance.Small" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/post_attach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:drawable/divider_horizontal_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic_attach"
+                    android:textAppearance="@android:style/TextAppearance.Small" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/emo_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="0dip" />
+    
+</FrameLayout>

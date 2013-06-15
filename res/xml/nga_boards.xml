@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nga-boards xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/cheng.app.nga" >
+
+    <nga-category app:category_title="魔兽世界综合讨论" >
+        <nga-board-item
+            app:board_icon="@drawable/p7"
+            app:board_id="7"
+            app:board_summary="魔兽主讨论区"
+            app:board_title="艾泽拉斯议事厅" />
+        <nga-board-item
+            app:board_icon="@drawable/p323"
+            app:board_id="323"
+            app:board_summary="国服以外综合讨论"
+            app:board_title="国服以外讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/p354"
+            app:board_id="-7"
+            app:board_summary="网事杂谈"
+            app:board_title="大漩涡" />
+        <nga-board-item
+            app:board_icon="@drawable/p310"
+            app:board_id="310"
+            app:board_summary="与高阶讨论"
+            app:board_title="前瞻资讯" />
+        <nga-board-item
+            app:board_icon="@drawable/p230"
+            app:board_id="230"
+            app:board_summary="曝光违背公认准则的行为"
+            app:board_title="艾泽拉斯风纪委员会" />
+        <nga-board-item
+            app:board_icon="@drawable/p414"
+            app:board_id="414"
+            app:board_summary="其他游戏讨论"
+            app:board_title="游戏综合讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="305"
+            app:board_summary=""
+            app:board_title="305权贵区" />
+    </nga-category>
+    <nga-category app:category_title="职业讨论区" >
+        <nga-board-item
+            app:board_icon="@drawable/p390"
+            app:board_id="390"
+            app:board_summary="武僧"
+            app:board_title="五晨寺" />
+        <nga-board-item
+            app:board_icon="@drawable/p320"
+            app:board_id="320"
+            app:board_summary="死亡骑士"
+            app:board_title="黑锋要塞" />
+        <nga-board-item
+            app:board_icon="@drawable/p181"
+            app:board_id="181"
+            app:board_summary="战士"
+            app:board_title="铁血沙场" />
+        <nga-board-item
+            app:board_icon="@drawable/p182"
+            app:board_id="182"
+            app:board_summary="法师"
+            app:board_title="魔法圣堂" />
+        <nga-board-item
+            app:board_icon="@drawable/p183"
+            app:board_id="183"
+            app:board_summary="牧师"
+            app:board_title="信仰神殿" />
+        <nga-board-item
+            app:board_icon="@drawable/p185"
+            app:board_id="185"
+            app:board_summary="萨满"
+            app:board_title="风暴祭坛" />
+        <nga-board-item
+            app:board_icon="@drawable/p186"
+            app:board_id="186"
+            app:board_summary="德鲁伊"
+            app:board_title="翡翠梦境" />
+        <nga-board-item
+            app:board_icon="@drawable/p187"
+            app:board_id="187"
+            app:board_summary="猎人"
+            app:board_title="猎手大厅" />
+        <nga-board-item
+            app:board_icon="@drawable/p184"
+            app:board_id="184"
+            app:board_summary="圣骑士"
+            app:board_title="圣光之力" />
+        <nga-board-item
+            app:board_icon="@drawable/p188"
+            app:board_id="188"
+            app:board_summary="术士"
+            app:board_title="恶魔深渊" />
+        <nga-board-item
+            app:board_icon="@drawable/p189"
+            app:board_id="189"
+            app:board_summary="盗贼"
+            app:board_title="暗影裂口" />
+    </nga-category>
+    <nga-category app:category_title="冒险心得" >
+        <nga-board-item
+            app:board_icon="@drawable/p190"
+            app:board_id="190"
+            app:board_summary=""
+            app:board_title="任务讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/p218"
+            app:board_id="218"
+            app:board_summary=""
+            app:board_title="副本专区" />
+        <nga-board-item
+            app:board_icon="@drawable/p327"
+            app:board_id="327"
+            app:board_summary=""
+            app:board_title="成就讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/p388"
+            app:board_id="388"
+            app:board_summary=""
+            app:board_title="幻化讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/p411"
+            app:board_id="411"
+            app:board_summary=""
+            app:board_title="宠物讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/p191"
+            app:board_id="191"
+            app:board_summary=""
+            app:board_title="地精商会" />
+        <nga-board-item
+            app:board_icon="@drawable/p200"
+            app:board_id="200"
+            app:board_summary=""
+            app:board_title="插件研究" />
+        <nga-board-item
+            app:board_icon="@drawable/p274"
+            app:board_id="274"
+            app:board_summary=""
+            app:board_title="插件发布" />
+        <nga-board-item
+            app:board_icon="@drawable/p272"
+            app:board_id="272"
+            app:board_summary=""
+            app:board_title="竞技场" />
+        <nga-board-item
+            app:board_icon="@drawable/p258"
+            app:board_id="258"
+            app:board_summary=""
+            app:board_title="战场讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/p213"
+            app:board_id="213"
+            app:board_summary=""
+            app:board_title="战争档案" />
+        <nga-board-item
+            app:board_icon="@drawable/p10"
+            app:board_id="255"
+            app:board_summary=""
+            app:board_title="公会管理" />
+        <nga-board-item
+            app:board_icon="@drawable/p10"
+            app:board_id="306"
+            app:board_summary=""
+            app:board_title="人员招募" />
+        <nga-board-item
+            app:board_icon="@drawable/p315"
+            app:board_id="315"
+            app:board_summary=""
+            app:board_title="战斗统计" />
+        <nga-board-item
+            app:board_icon="@drawable/p240"
+            app:board_id="240"
+            app:board_summary=""
+            app:board_title="BigFoot" />
+        <nga-board-item
+            app:board_icon="@drawable/p333"
+            app:board_id="333"
+            app:board_summary=""
+            app:board_title="DKP系统" />
+        <nga-board-item
+            app:board_icon="@drawable/p193"
+            app:board_id="173"
+            app:board_summary=""
+            app:board_title="账号安全" />
+    </nga-category>
+    <nga-category app:category_title="麦迪文之塔" >
+        <nga-board-item
+            app:board_icon="@drawable/p8"
+            app:board_id="8"
+            app:board_summary="资料归档"
+            app:board_title="大图书馆" />
+        <nga-board-item
+            app:board_icon="@drawable/p254"
+            app:board_id="254"
+            app:board_summary="历史研究"
+            app:board_title="镶金玫瑰" />
+        <nga-board-item
+            app:board_icon="@drawable/p355"
+            app:board_id="355"
+            app:board_summary="探索发现"
+            app:board_title="龟岩兄弟会" />
+        <nga-board-item
+            app:board_icon="@drawable/p116"
+            app:board_id="116"
+            app:board_summary="分享创意"
+            app:board_title="奇迹之泉" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="124"
+            app:board_summary="原创艺术 同人作品"
+            app:board_title="壁画洞窟" />
+        <nga-board-item
+            app:board_icon="@drawable/p102"
+            app:board_id="102"
+            app:board_summary="游戏文学作品发布"
+            app:board_title="作家协会" />
+        <nga-board-item
+            app:board_icon="@drawable/p264"
+            app:board_id="264"
+            app:board_summary="影音制作讨论"
+            app:board_title="卡拉赞剧院" />
+    </nga-category>
+    <nga-category app:category_title="暗黑破坏神" >
+        <nga-board-item
+            app:board_icon="@drawable/p318"
+            app:board_id="318"
+            app:board_summary="D3综合讨论区"
+            app:board_title="暗黑破坏神3" />
+        <nga-board-item
+            app:board_icon="@drawable/p403"
+            app:board_id="409"
+            app:board_summary="专家模式讨论"
+            app:board_title="HC讨论区" />
+        <nga-board-item
+            app:board_icon="@drawable/p401"
+            app:board_id="401"
+            app:board_summary="供求信息发布"
+            app:board_title="装备交易" />
+        <nga-board-item
+            app:board_icon="@drawable/p401"
+            app:board_id="404"
+            app:board_summary="供求信息发布"
+            app:board_title="金币交易" />
+        <nga-board-item
+            app:board_icon="@drawable/p401"
+            app:board_id="394"
+            app:board_summary="估价相关讨论"
+            app:board_title="装备询价" />
+        <nga-board-item
+            app:board_icon="@drawable/p393"
+            app:board_id="393"
+            app:board_summary=""
+            app:board_title="背景故事与文艺作品" />
+        <nga-board-item
+            app:board_icon="@drawable/p29"
+            app:board_id="400"
+            app:board_summary="职业汇总"
+            app:board_title="职业讨论区" />
+        <nga-board-item
+            app:board_icon="@drawable/p395"
+            app:board_id="395"
+            app:board_summary=""
+            app:board_title="野蛮人" />
+        <nga-board-item
+            app:board_icon="@drawable/p396"
+            app:board_id="396"
+            app:board_summary=""
+            app:board_title="猎魔人" />
+        <nga-board-item
+            app:board_icon="@drawable/p397"
+            app:board_id="397"
+            app:board_summary=""
+            app:board_title="武僧" />
+        <nga-board-item
+            app:board_icon="@drawable/p398"
+            app:board_id="398"
+            app:board_summary=""
+            app:board_title="巫医" />
+        <nga-board-item
+            app:board_icon="@drawable/p399"
+            app:board_id="399"
+            app:board_summary=""
+            app:board_title="魔法师" />
+    </nga-category>
+    <nga-category app:category_title="英雄联盟" >
+        <nga-board-item
+            app:board_icon="@drawable/p152678"
+            app:board_id="-152678"
+            app:board_summary=""
+            app:board_title="英雄联盟" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="418"
+            app:board_summary=""
+            app:board_title="游戏视频" />
+    </nga-category>
+    <nga-category app:category_title="其他游戏" >
+        <nga-board-item
+            app:board_icon="@drawable/p65653"
+            app:board_id="-65653"
+            app:board_summary="Blade &#38; Soul"
+            app:board_title="剑灵" />
+        <nga-board-item
+            app:board_icon="@drawable/p412"
+            app:board_id="412"
+            app:board_summary="Allods Online"
+            app:board_title="巫师之怒" />
+        <nga-board-item
+            app:board_icon="@drawable/p235147"
+            app:board_id="-235147"
+            app:board_summary="Guild Wars 2"
+            app:board_title="激战2" />
+        <nga-board-item
+            app:board_icon="@drawable/p46468"
+            app:board_id="-46468"
+            app:board_summary=""
+            app:board_title="坦克世界" />
+        <nga-board-item
+            app:board_icon="@drawable/p321"
+            app:board_id="321"
+            app:board_summary=""
+            app:board_title="DotA" />
+        <nga-board-item
+            app:board_icon="@drawable/p2371813"
+            app:board_id="-2371813"
+            app:board_summary=""
+            app:board_title="EVE" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-793427"
+            app:board_summary=""
+            app:board_title="斗战神" />
+        <nga-board-item
+            app:board_icon="@drawable/p332"
+            app:board_id="332"
+            app:board_summary=""
+            app:board_title="战锤40K系列" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="416"
+            app:board_summary=""
+            app:board_title="火炬之光2" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="406"
+            app:board_summary=""
+            app:board_title="星际争霸2综合讨论区" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-7861121"
+            app:board_summary=""
+            app:board_title="剑侠情缘网络版叁" />
+        <nga-board-item
+            app:board_icon="@drawable/p420"
+            app:board_id="420"
+            app:board_summary=""
+            app:board_title="我叫MT online" />
+        </nga-category>
+    <nga-category app:category_title="推荐专区" >
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="271"
+            app:board_summary=""
+            app:board_title="魔兽世界卡牌游戏(WoWTCG)" />
+    </nga-category>
+    <nga-category app:category_title="其他版面" >
+        <nga-board-item
+            app:board_icon="@drawable/p10"
+            app:board_id="10"
+            app:board_summary="投诉/网站BUG/建议"
+            app:board_title="银色黎明裁判所" />
+        <nga-board-item
+            app:board_icon="@drawable/p201"
+            app:board_id="201"
+            app:board_summary="软/硬件"
+            app:board_title="系统问题" />
+        <nga-board-item
+            app:board_icon="@drawable/p334"
+            app:board_id="334"
+            app:board_summary="装机讨论"
+            app:board_title="硬件配置" />
+        <nga-board-item
+            app:board_icon="@drawable/p335"
+            app:board_id="335"
+            app:board_summary="以及NGA开发"
+            app:board_title="大IT科技" />
+    </nga-category>
+    <nga-category app:category_title="个人版面" >
+        <nga-board-item
+            app:board_icon="@drawable/houzi"
+            app:board_id="-447601"
+            app:board_summary="动漫"
+            app:board_title="二次元国家地理" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-84"
+            app:board_summary="模型手办"
+            app:board_title="模玩之魂" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-8725919"
+            app:board_summary="旅游摄影"
+            app:board_title="小窗视界" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-343809"
+            app:board_summary="车迷专区"
+            app:board_title="寂寞的车" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-131429"
+            app:board_summary="网文讨论"
+            app:board_title="红茶馆" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-608808"
+            app:board_summary="美食厨房"
+            app:board_title="弑熊主厨的血腥厨房" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-469608"
+            app:board_summary=""
+            app:board_title="影视讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-55912"
+            app:board_summary=""
+            app:board_title="音乐讨论" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-522474"
+            app:board_summary=""
+            app:board_title="综合体育讨论区" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-1068355"
+            app:board_summary="水无灯里 的个人版面"
+            app:board_title="晴风村" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-46468"
+            app:board_summary="洛拉斯之刺 的个人版面"
+            app:board_title="洛拉斯的坦克世界" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-168888"
+            app:board_summary="babytigerz 的个人版面"
+            app:board_title="NGA育儿版" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-187579"
+            app:board_summary="瞎子啊炳 的个人版面"
+            app:board_title="大旋涡历史博物馆" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-47218"
+            app:board_summary="女武神瓦格雷 的个人版面"
+            app:board_title="没有刀的漆器" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-124119"
+            app:board_summary="菠萝姐姐 的个人版面"
+            app:board_title="菠萝方舟·诅咒之地" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-444012"
+            app:board_summary="失宠 的个人版面"
+            app:board_title="自行车：我们的骑迹" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-235147"
+            app:board_summary="glory105 的个人版面"
+            app:board_title="阿苏拉星门" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-314508"
+            app:board_summary="blance 的个人版面"
+            app:board_title="世界尽头的百货公司" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-2671"
+            app:board_summary=""
+            app:board_title="耳机区" />
+        <nga-board-item
+            app:board_icon="@drawable/pdefault"
+            app:board_id="-349066"
+            app:board_summary="sagit 的个人版面"
+            app:board_title="开心茶园" />
+    </nga-category>
+</nga-boards>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/listContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <WebView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/common_empty"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/listAction"
+            android:layout_width="@dimen/list_actionbar_width"
+            android:layout_height="@dimen/list_actionbar_height"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="?actionbar_bg"
+            android:visibility="gone"
+            android:divider="@drawable/list_divider_holo_dark"
+            android:showDividers="middle"
+            android:dividerPadding="12dip"
+            android:orientation="horizontal" >
+
+            <include layout="@layout/list_common_action" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/progressContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

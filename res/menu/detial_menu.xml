@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_reply_topic"
+        android:icon="@drawable/ic_menu_start_new_huddle_action_bar"
+        android:title="@string/menu_reply_topic"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_mark"
+        android:icon="@drawable/ic_menu_star_holo_light"
+        android:title="@string/menu_mark"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_menu_refresh_small"
+        android:title="@string/menu_refresh"
+        android:showAsAction="ifRoom|withText" />
+</menu>

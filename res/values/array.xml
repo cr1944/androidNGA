@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="title">
+        <item>精华/加分/加亮贴</item>
+        <item>用户推荐的主题</item>
+    </string-array>
+    <string-array name="themes">
+        <item>NGA黄</item>
+        <item>高级黑</item>
+    </string-array>
+
+    <array name="post_icons">
+        <item>@drawable/i1</item>
+        <item>@drawable/i2</item>
+        <item>@drawable/i3</item>
+        <item>@drawable/i4</item>
+        <item>@drawable/i5</item>
+        <item>@drawable/i6</item>
+        <item>@drawable/i7</item>
+        <item>@drawable/i8</item>
+        <item>@drawable/i9</item>
+        <item>@drawable/i10</item>
+        <item>@drawable/i11</item>
+        <item>@drawable/i12</item>
+        <item>@drawable/i13</item>
+        <item>@drawable/i14</item>
+    </array>
+
+    <string-array name="bbscodes">
+        <item>发送&#064;提醒</item>
+        <item>引用文字</item>
+        <item>文字颜色</item>
+        <item>文字大小</item>
+        <item>文字字体</item>
+        <item>粗体文字</item>
+        <item>下划线文字</item>
+        <item>斜体文字</item>
+        <item>删除线</item>
+        <item>左/中/右对齐</item>
+        <item>段落标题</item>
+        <item>左/右浮动</item>
+        <item>列表条目</item>
+        <item>插入图片</item>
+        <item>插入相册</item>
+        <item>插入链接</item>
+        <item>程序代码</item>
+        <item>插入flash(视频)</item>
+        <item>投骰子</item>
+        <item>插入折叠的内容</item>
+        <item>自定义成就</item>
+    </string-array>
+    <string-array name="bbscodes_hint">
+        <item>输入用户名</item>
+        <item>输入要引用的文字</item>
+        <item>输入要加颜色文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>输入文字</item>
+        <item>请输入图片地址</item>
+        <item>输入文字</item>
+        <item>请输入链接地址</item>
+        <item>输入程序代码</item>
+        <item>输入flash地址</item>
+        <item>投骰子</item>
+        <item>插入折叠的内容</item>
+        <item>自定义成就</item>
+    </string-array>
+
+    <array name="text_color">
+        <item>#87CEEB</item>
+        <item>#4169E1</item>
+        <item>#00f</item>
+        <item>#00008B</item>
+        <item>#FFA500</item>
+        <item>#FF4500</item>
+        <item>#DC143C</item>
+        <item>#f00</item>
+        <item>#B22222</item>
+        <item>#8B0000</item>
+        <item>#008000</item>
+        <item>#32CD32</item>
+        <item>#2E8B57</item>
+        <item>#008080</item>
+        <item>#FF1493</item>
+        <item>#FF6347</item>
+        <item>#FF7F50</item>
+        <item>#800080</item>
+        <item>#4B0082</item>
+        <item>#DEB887</item>
+        <item>#F4A460</item>
+        <item>#A0522D</item>
+        <item>#D2691E</item>
+        <item>#C0C0C0</item>
+    </array>
+
+    <string-array name="text_color_value">
+        <item>skyblue</item>
+        <item>royalBlue</item>
+        <item>blue</item>
+        <item>darkBlue</item>
+        <item>orange</item>
+        <item>orangered</item>
+        <item>crimson</item>
+        <item>red</item>
+        <item>firebrick</item>
+        <item>darkred</item>
+        <item>green</item>
+        <item>limegreen</item>
+        <item>seagreen</item>
+        <item>teal</item>
+        <item>deeppink</item>
+        <item>tomato</item>
+        <item>coral</item>
+        <item>purple</item>
+        <item>indigo</item>
+        <item>burlywood</item>
+        <item>sandybrown</item>
+        <item>sienna</item>
+        <item>chocolate</item>
+        <item>silver</item>
+    </string-array>
+    <string-array name="text_size">
+        <item>100%</item>
+        <item>110%</item>
+        <item>120%</item>
+        <item>130%</item>
+        <item>140%</item>
+        <item>150%</item>
+    </string-array>
+    <string-array name="text_font">
+        <item>simsun</item>
+        <item>simhei</item>
+        <item>Arial</item>
+        <item>Arial Black</item>
+        <item>Book Antiqua</item>
+        <item>Century Gothic</item>
+        <item>Comic Sans MS</item>
+        <item>Courier New</item>
+        <item>Georgia</item>
+        <item>Impact</item>
+        <item>Tahoma</item>
+        <item>Times New Roman</item>
+        <item>Trebuchet MS</item>
+        <item>Script MT Bold</item>
+        <item>Stencil</item>
+        <item>Verdana</item>
+        <item>Lucida Console</item>
+    </string-array>
+    <string-array name="text_align">
+        <item>left</item>
+        <item>center</item>
+        <item>right</item>
+    </string-array>
+    <string-array name="text_float">
+        <item>l</item>
+        <item>r</item>
+    </string-array>
+    <string-array name="text_code">
+        <item>lua</item>
+        <item>php</item>
+        <item>c</item>
+        <item>js</item>
+        <item>xml</item>
+    </string-array>
+    <string-array name="text_dice">
+        <item>d100</item>
+        <item>2d6</item>
+        <item>2d4+2d6</item>
+    </string-array>
+</resources>

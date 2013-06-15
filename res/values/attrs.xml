@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <attr name="menu_bg" format="reference|color"/>
+    <attr name="actionbar_bg" format="reference|color"/>
+    <attr name="text_color" format="color"/>
+    <!-- NGA boards -->
+    <declare-styleable name="NgaBoard">
+        <attr name="category_title" format="string" />
+        <attr name="board_id" format="string" />
+        <attr name="board_icon" format="reference" />
+        <attr name="board_title" format="string" />
+        <attr name="board_summary" format="string" />
+    </declare-styleable>
+    <declare-styleable name="preferenceHeader">
+        <!-- Identifier value for the header. -->
+        <attr name="android:id"/>
+        <!-- The title of the item that is shown to the user. -->
+        <attr name="android:title" />
+        <!-- The summary for the item. -->
+        <attr name="android:summary" />
+        <!-- The title for the bread crumb of this item. -->
+        <attr name="breadCrumbTitle" format="string" />
+        <!-- The short title for the bread crumb of this item. -->
+        <attr name="breadCrumbShortTitle" format="string" />
+        <!-- An icon for the item. -->
+        <attr name="android:icon" />
+        <!-- The fragment that is displayed when the user selects this item. -->
+        <attr name="fragment" format="string" />
+        <attr name="switcherPreference" format="string" />
+        <attr name="switcherValue" format="boolean" />
+        <attr name="type">
+            <flag name="normal" value="0x0" />
+            <flag name="category" value="0x1" />
+            <flag name="switcher" value="0x2" />
+        </attr>
+    </declare-styleable>
+</resources>

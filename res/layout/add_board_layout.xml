@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:padding="6dip"
+   android:stretchColumns="1">
+
+   <TableRow>
+       <TextView
+           android:text="@string/board_id"
+           android:textStyle="bold"
+           android:gravity="right"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:padding="3dip" />
+
+       <EditText android:id="@+id/board_id"
+           android:hint="@string/board_id_hint"
+           android:inputType="numberSigned"
+           android:scrollHorizontally="true" />
+   </TableRow>
+
+   <TableRow>
+       <TextView
+           android:text="@string/board_title"
+           android:textStyle="bold"
+           android:gravity="right"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:padding="3dip" />
+
+       <EditText android:id="@+id/board_title"
+           android:inputType="text"
+           android:maxLength="20"
+           android:scrollHorizontally="true" />
+   </TableRow>
+   <TableRow>
+       <TextView
+           android:text="@string/board_summary"
+           android:textStyle="bold"
+           android:gravity="right"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:padding="3dip" />
+
+       <EditText android:id="@+id/board_summary"
+           android:inputType="text"
+           android:maxLength="20"
+           android:scrollHorizontally="true" />
+   </TableRow>
+</TableLayout>
